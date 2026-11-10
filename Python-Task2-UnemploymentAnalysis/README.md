@@ -34,8 +34,4 @@ pip install pandas numpy matplotlib seaborn jupyter
 jupyter notebook Unemployment_Analysis.ipynb
 ```
 
-## Screenshots
-Add screenshots (time-series chart, top-10 bar chart, heatmap, pre/post comparison) to a `screenshots/` folder.
 
-## Demo Video
-_Paste your LinkedIn post link here._
