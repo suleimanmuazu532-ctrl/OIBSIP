@@ -36,8 +36,5 @@ pip install pandas numpy scikit-learn matplotlib seaborn jupyter
 jupyter notebook Iris_Flower_Classification.ipynb
 ```
 
-## Screenshots
-Add screenshots of the pairplot, confusion matrices and model comparison chart to a `screenshots/` folder and link them here.
 
-## Demo Video
-_Paste your LinkedIn post link here._
+
