@@ -1,40 +1,41 @@
-# Iris Flower Classification
+# Unemployment Analysis with Python
 
-**Oasis Infobyte Internship · Python Track · Task 1**
+**Oasis Infobyte Internship · Python Track · Task 2**
 
 ## Objective
-Train machine learning classifiers that identify the species of an iris flower (Setosa, Versicolor or Virginica) from its sepal and petal measurements.
+Explore unemployment data for India to uncover regional and temporal trends, with a focus on the impact of the COVID-19 pandemic.
 
 ## Dataset
-The classic Iris dataset (150 samples, 4 numeric features, 3 balanced classes), loaded directly from `sklearn.datasets.load_iris()`.
+"Unemployment in India" from Kaggle: state-wise monthly estimated unemployment rate, estimated employed, and labour participation rate.
+Place the downloaded CSV in this folder before running the notebook.
 
 ## Approach
-1. Exploratory data analysis: shape, dtypes, null check, descriptive statistics, class balance
-2. Visualisations: pairplot, box plots, correlation heatmap
-3. Feature discussion: petal length and petal width are the most discriminative
-4. Stratified 80/20 train/test split
-5. Models trained: Logistic Regression, K-Nearest Neighbours, Decision Tree, Random Forest
-6. Evaluation: accuracy, confusion matrix, classification report, plus 5-fold cross-validation
-7. Best model declared with justification
+1. Data loading, shape inspection, null check, cleaning and type conversion
+2. EDA: region-wise average rates and month-wise trends
+3. Time-series line chart for several major states
+4. Bar chart of the top 10 states by average unemployment rate
+5. Correlation heatmap of unemployment rate, employment and labour participation rate
+6. Pre-COVID vs. post-COVID comparison (split at the 25 March 2020 lockdown)
+7. Written observations after every chart
 
-## Results
-| Model | Test Accuracy | CV Mean Accuracy |
-|-------|---------------|------------------|
-| Logistic Regression | 0.9333 | 0.9600 |
-| K-Nearest Neighbours | 0.9333 | 0.9600 |
-| Decision Tree | 0.9333 | 0.9533 |
-| Random Forest | 0.9000 | 0.9667 |
-
-**Best model:** Random Forest (highest 5-fold cross-validated accuracy, 0.9667)
+## Key Findings
+_Fill in after running the notebook, using the "Key Numbers" cell:_
+- Average unemployment rate pre-COVID: _x%_
+- Average unemployment rate post-COVID: _y%_
+- National peak: _month, value_
+- State with the biggest increase: _name_
 
 ## Tech Stack
-Python, pandas, NumPy, scikit-learn, matplotlib, seaborn, Jupyter Notebook
+Python, pandas, NumPy, matplotlib, seaborn, Jupyter Notebook
 
 ## How to Run
 ```bash
-pip install pandas numpy scikit-learn matplotlib seaborn jupyter
-jupyter notebook Iris_Flower_Classification.ipynb
+pip install pandas numpy matplotlib seaborn jupyter
+jupyter notebook Unemployment_Analysis.ipynb
 ```
 
+## Screenshots
+Add screenshots (time-series chart, top-10 bar chart, heatmap, pre/post comparison) to a `screenshots/` folder.
 
-
+## Demo Video
+_Paste your LinkedIn post link here._
